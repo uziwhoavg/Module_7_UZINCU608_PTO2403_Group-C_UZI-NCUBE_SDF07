@@ -4,7 +4,7 @@ Welcome to the CodeSpace Pets Instagram Profile project, where you'll get hands-
 
 **Starter Code:** [CodeSpace-Academy/Module_7_StudentNo_Classcode_Group_Name-Surname_SDF07 (github.com)](https://github.com/CodeSpace-Academy/Module_7_StudentNo_Classcode_Group_Name-Surname_SDF07)
 
-![[CodeSpacePetsInstagram-Personal-MicrosoftEdge2024-02-2708-14-29-ezgif.com-video-to-gif-converter 1.gif]]
+![alt text](CodeSpacePetsInstagram.gif)
 
 **What You'll Learn:**
 
