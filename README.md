@@ -1,51 +1,58 @@
 # [SDF07] Project: CodeSpace Pets Instagram Profile
 
-Welcome to the CodeSpace Pets Instagram Profile project, where you'll get hands-on experience applying CSS layout concepts. In this project, we will have fun recreating a simplified version of an Instagram user profile page. You aim to practice using CSS for styling and layout to create a visually appealing and responsive web page.
+REFERENCES : 
+https://codepen.io/GeorgePark/pen/VXrwOP
+https://codepen.io/SitePoint/pen/wKdrwN
+https://www.instagram.com/uzi.trizzle/
+https://www.kunkalabs.com/tutorials/mixitup-grid-layouts/*/
 
-**Check out the Starter Code:** [CodeSpace-Academy/Module_7_StudentNo_Classcode_Group_Name-Surname_SDF07 (github.com)](https://github.com/CodeSpace-Academy/Module_7_StudentNo_Classcode_Group_Name-Surname_SDF07)
+Essentially,
+I implemented various styles for a mock instagram profile and gallery layout, including font styles, layout adjustments for responsiveness, and hover effects for gallery items. in summary:
 
-![!\[alt text\](CodeSpacePetsInstagram.gif)](CodeSpacePetsInstagram.gif)
+Base Styles had already been set
+- with a Set  base font size to 10px. reference for rem purposes?
+- Applied box-sizing border-box globally.
+Defined a font family called "Roboto" and specified its variants for regular text and numbers.
 
-**What You'll Learn:**
+Body Styles:
+Set the body font family to "Roboto".
+Set background color to white and text color to black.
+Adjusted padding and line-height.
 
-- Apply CSS styling to an HTML structure to achieve a design resembling an Instagram profile.
-- Demonstrate proficiency in CSS layout techniques, including flexbox and grid.
-- Create a responsive web page that adapts to different screen sizes.
-- Practice using basic HTML and CSS to create a cohesive user interface.
+Profile Styles:
+Styled profile sections such as image, user settings, user name, edit button, statistics, and biography.
+Used flexbox for layout and alignment.
+Applied specific font sizes, weights, and line heights for different elements within the profile section.
 
-**Project Requirements:**
+Gallery Styles:
+Styled the gallery layout using CSS grid for responsiveness.
+Applied hover and focus effects for gallery items.
+Set specific font sizes, weights, and alignment for gallery item info.
+Positioned the gallery item type ( in the top right corner of each gallery item.
 
-1. **Start with Provided HTML**: You'll begin with a starter HTML code provided in the project. 
-2. **CSS Styling**: Your task is to write CSS code to style the HTML elements and create the desired layout. Pay attention to the following:
-    - Positioning and styling the profile image.
-    - Styling the user's profile information, including username, bio, and stats.
-    - Creating a responsive layout for the gallery section.
-    - Implementing hover and focus effects for interactive elements.
-    - Add a dynamic loading wheel at the bottom of the gallery.
-3. **Responsive Design**:
-    - Ensure your web page looks good and functions properly on desktop and mobile devices.
-    - Implement responsive design using media queries, making adjustments for smaller screens.
-4. **CSS Features**:
-    - Explore CSS features such as `box-sizing`, `flexbox`, and `grid` layout where they are suitable.
-    - Apply appropriate font sizes, colors, and spacing to achieve a visually pleasing design.
+Media Queries:
+Adjusted styles for smaller screens using @media queries, particularly targeting screen widths up to 900px.
+Modified layout, font sizes, and padding for better responsiveness on smaller devices.
 
-**Deliverables:**
+Overall, i created a somewhat responsive and visually appealing layout for a profile and gallery section using CSS.
 
-1. **Styled Web Page**: Your main output should be a styled web page closely resembling an Instagram profile, using the provided HTML and reference video as a starting point.
-2. **CSS Code**: Submit your CSS code as a separate file or within the HTML file's `<style>` tags.
-   
-**What to Hand In | Submit**
 
-You will submit the GitHub project link with your final project files to the LMS. 
+HTML Structure:
+A typical HTML structure was given with <head> and <body> sections.
+Meta tags for character set and viewport settings were included.
 
-1. Clone the starter code.
-2. Make sure your repository is public.
-3. Code your solution.
-4. Submit all your changes to your GitHub project repo.
-5. Submit your GitHub repo link to the LMS.
+External CSS file above was linked, including the custom stylesheet (styles.css) and Font Awesome for icons.
 
-**HOW to submit your project**
+Header Section:
+The header contains the profile information, including the profile image, username, edit profile button, and settings button.
+Profile statistics such as the number of posts, followers, and following are displayed.
+A brief bio is included describing the purpose of the profile and a dedication to my first ever dog who passed away.
 
-1. Submit the GitHub project link with your final project files to the LMS. You will find this in the LMS [**[Projects](https://learn.codespace.co.za/projects)**] tab.
+Main Content Section:
+The main content section contains the gallery of pet images.
+Each image is displayed within a gallery item container, including image tags and information about likes and comments.
+Icons from Font Awesome are used for likes, comments, and video indicators.
+The gallery items are laid out in a grid format.
 
-Enjoy the project, and have fun turning HTML into a stylish Instagram profile!
+Loader:
+A loader element is included, presumably for indicating simulating loading progress given that one reaches the pages end .
